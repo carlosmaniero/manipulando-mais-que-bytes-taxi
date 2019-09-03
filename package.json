@@ -1,0 +1,25 @@
+{
+  "devDependencies": {
+    "jest": "^24.9.0",
+    "typescript": "^3.6.2"
+  },
+  "scripts": {
+    "start": "ts-node-dev --respawn --transpileOnly ./index.ts",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.1",
+    "@types/jest": "^24.0.18",
+    "express": "^4.17.1",
+    "ts-jest": "^24.0.2",
+    "ts-node-dev": "^1.0.0-pre.42"
+  },
+  "name": "manipulando-mais-que-bytes-taxi",
+  "version": "1.0.0",
+  "description": "Repositório com exemplos de modelagem de domínio",
+  "main": "index.js",
+  "repository": "https://github.com/carlosmaniero/manipulando-mais-que-bytes-taxi.git",
+  "author": "carlosmaniero",
+  "license": "MIT",
+  "private": false
+}
